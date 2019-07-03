@@ -33,7 +33,6 @@
 ### Association
 - belongs_to :group
 
-
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
@@ -44,4 +43,3 @@
 ### Association
 - has_many :messages
 - has_many :groups
-
