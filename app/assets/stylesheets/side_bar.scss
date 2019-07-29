@@ -12,18 +12,16 @@
       font-size: $side_header_font;
       font-weight: bold;
     }
-    &__lists {
-      display: inline-block;
-      float: none;
-      .list {
-        display: inline-block;
-      }
-      .icon {
-        color: $white;
-        font-size: $side_header_font;
-      }
+    .icon {
+      color: $white;
+      font-size: $side_header_font;
+      float: right;
+      margin: 3px;
+      position: relative;
+      bottom: 60px;
     }
   }
+  
 
   .groups {
     background-color: $left_bottom;
