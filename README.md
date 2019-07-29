@@ -33,7 +33,6 @@
 ### Association
 - belongs_to :group
 
-
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
